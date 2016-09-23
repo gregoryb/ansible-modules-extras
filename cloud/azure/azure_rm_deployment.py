@@ -42,7 +42,7 @@ options:
       - In incremental mode, resources are deployed without deleting existing resources that are not included in the template. 
         In complete mode resources are deployed and existing resources in the resource group not included in the template are deleted.
     required: false
-    default: complete
+    default: incremental
     choices:
         - complete
         - incremental
